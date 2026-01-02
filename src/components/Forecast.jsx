@@ -7,7 +7,7 @@ const Forecast = ({ title, unit, forecast }) => {
         <p className="font-medium uppercase">{title}</p>
       </div>
 
-      <hr className="my-2" />
+      <hr className="my-3" />
 
       <div className="flex flex-row items-center justify-around">
         {forecast.map(({ title, icon, temp_c, temp_f }) => (
